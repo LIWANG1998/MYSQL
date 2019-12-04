@@ -14,33 +14,33 @@ MySQL Workbench 是可视化数据库设计软件，为数据库管理员和开�
 
 \\. stips1：双击 Workbench 应用，选择链接，输入密码，点击ok
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_login.png)
+![](./IMGS/workbench_login.png)
 
 > 提示：当然你也可以点击+号，新建一个链接
 
 ## 2. 页面介绍
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_face.png)
+![](./IMGS/workbench_face.png)
 
 ## 3. 创建数据库
 
 在 SCHEMAS 列表的空白处右击，选择“Create Schema…”，则可创建一个数据库，如下图所示。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_create_database_1.png)
+![](./IMGS/workbench_create_database_1.png)
 
 在创建数据库的对话框中，在 Name 框中输入数据库的名称，在 Collation 下拉列表中选择数据库指定的字符集。单击 Apply 按钮，即可创建成功，如下图所示。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_create_database_2.png)
+![](./IMGS/workbench_create_database_2.png)
 
 在创建数据库的对话框中设置完成之后，可以预览当前操作的 SQL 脚本，然后单击 Apply 按钮，最后在下一个弹出的对话框中直接单击 Finish 按钮，即可完成数据库 test_db 的创建，如下图所示。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_create_database_3.png)
+![](./IMGS/workbench_create_database_3.png)
 
 ## 4. 修改数据库
 
 成功创建数据库后，可以修改数据库的字符集，在需要修改字符集的数据库上右击，选择“Alter Schema…”选项，即可修改数据库指定的字符集，如下图所示。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_change_database.png)
+![](./IMGS/workbench_change_database.png)
 
 在修改数据库的对话框中，数据库的名称不可以修改，在 Collation 下拉列表中选择数据库需要修改为的字符集。单击 Apply 按钮，即可创建成功。
 
@@ -48,7 +48,7 @@ MySQL Workbench 是可视化数据库设计软件，为数据库管理员和开�
 
 可以在 SCHEMAS 列表中删除数据库，在需要删除的数据库上右击，选择“Drop Schema…”，如下图所示。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_drop_database.png)
+![](./IMGS/workbench_drop_database.png)
 
 在弹出的对话框中单击 Drop Now 按钮，即可直接删除数据库。
 
@@ -58,11 +58,11 @@ MySQL Workbench 是可视化数据库设计软件，为数据库管理员和开�
 
 在 SCHEMAS 列表中可以选择默认的数据库，在需要指定默认的数据库上右击，选择 Set As Default Schema，如下图所示。该操作相当于命令行工具中的 USE<database_name> 命令。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_set_as_default.png)
+![](./IMGS/workbench_set_as_default.png)
 
 数据库 test_db 被设置为默认数据库之后，SCHEMAS 列表中的 test_db 字体会被加粗显示，如下图所示。
 
-![](/Users/LiHongyao/Desktop/Mine/Mysql/IMGS/workbench_set_as_default_1.png)
+![](./IMGS/workbench_set_as_default_1.png)
 
 # 三、操作数据表
 
